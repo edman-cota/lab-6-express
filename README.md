@@ -1,4 +1,4 @@
-#Lab 6: Server Side Javascript
+# Lab 6: Server Side Javascript
 
 Laboratorio 6 para poner en práctica los contenidos aprendidos en clase de de express y docker (docker-compose).
 
@@ -8,7 +8,7 @@ Laboratorio 6 para poner en práctica los contenidos aprendidos en clase de de e
 - Node > 16
 - PostgreSQL > 14
 
-###1. Crear las imagenes y contenedores necesarios
+### 1. Crear las imagenes y contenedores necesarios
 
 El proyecto ya está configurado usando docker-compose que nos permite correr varias aplicaciones interconectados entre si con un solo comando.
 
@@ -20,7 +20,7 @@ docker-compose up -d
 
 ¡List!. Ya tenemos nuestros contenedores de node y PostgreSQL corriendo en al misma red, conectados entre si.
 
-#¿Cómo probar los endpoints?
+## ¿Cómo probar los endpoints?
 
 Los rutas disponibles:
 GET: http://localhost:3000/posts
