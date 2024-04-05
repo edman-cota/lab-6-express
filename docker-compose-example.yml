@@ -3,7 +3,6 @@ version: '3'
 services:
   db:
     image: postgres
-    restart: always
     environment:
       POSTGRES_PASSWORD: password123
       POSTGRES_USER: user123
@@ -17,6 +16,5 @@ services:
   app:
     build:
       context: ./
-    restart: always
     ports:
       - 19830:3000
